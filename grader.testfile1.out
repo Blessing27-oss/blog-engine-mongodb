@@ -1,0 +1,99 @@
+Error: User 'Alice' already exists.
+Error: User 'Bob' already exists.
+Error: Post titled 'MongoDB Tips' already exists in blog 'tech_blog'.
+Error: Post titled 'Indexes in MongoDB' already exists in blog 'tech_blog'.
+No matches found for 'MongoDB' in blog 'tech_blog'.
+/Users/blessingngwechelseandeh/blog-engine-mongodb/app.py:246: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+Blog Engine is running... Enter commands below:
+Comment added by Bob. New comment permalink: 2025-03-08T00:48:14.185627+00:00
+Comment added by Alice. New comment permalink: 2025-03-08T00:48:14.186721+00:00
+
+in Tech_blog:
+
+
+in Tech_blog:
+
+- - - -
+timestamp: 2025-03-08T00:23:43.165000
+title: Indexes in MongoDB
+userName: Bob
+tags: database, indexes, mongodb
+permalink: tech_blog.Indexes_in_MongoDB
+body: Indexes make queries faster.
+
+	Comment by Alice: Nice info, Bob!
+	Comment by Alice: Nice info, Bob!
+	Comment by Alice: Nice info, Bob!
+	Comment by Alice: Nice info, Bob!
+	Comment by Alice: Nice info, Bob!
+Post 'tech_blog.MongoDB_Tips' deleted by Bob.
+
+in Tech_blog:
+
+- - - -
+title: MongoDB Tips
+userName: Alice
+tags: database, mongodb
+timestamp: 2025-03-08T00:48:14.188000
+permalink: tech_blog.MongoDB_Tips
+body:
+    deleted by Bob
+
+    userName:, Bob
+     permalink: 2025-03-08 00:23:43.166000
+      comment:
+        Great post, Alice!
+
+    userName:, Bob
+     permalink: 2025-03-08 00:44:09.348000
+      comment:
+        Great post, Alice!
+
+    userName:, Bob
+     permalink: 2025-03-08 00:45:56.067000
+      comment:
+        Great post, Alice!
+
+    userName:, Bob
+     permalink: 2025-03-08 00:46:51.375000
+      comment:
+        Great post, Alice!
+
+    userName:, Bob
+     permalink: 2025-03-08 00:48:14.185000
+      comment:
+        Great post, Alice!
+- - - -
+title: Indexes in MongoDB
+userName: Bob
+tags: database, indexes, mongodb
+timestamp: 2025-03-08T00:23:43.165000
+permalink: tech_blog.Indexes_in_MongoDB
+body:
+    Indexes make queries faster.
+
+    userName:, Alice
+     permalink: 2025-03-08 00:23:43.167000
+      comment:
+        Nice info, Bob!
+
+    userName:, Alice
+     permalink: 2025-03-08 00:44:09.349000
+      comment:
+        Nice info, Bob!
+
+    userName:, Alice
+     permalink: 2025-03-08 00:45:56.068000
+      comment:
+        Nice info, Bob!
+
+    userName:, Alice
+     permalink: 2025-03-08 00:46:51.376000
+      comment:
+        Nice info, Bob!
+
+    userName:, Alice
+     permalink: 2025-03-08 00:48:14.186000
+      comment:
+        Nice info, Bob!

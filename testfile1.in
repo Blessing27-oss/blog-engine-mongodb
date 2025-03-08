@@ -1,0 +1,16 @@
+register Alice alice@example.com
+register Bob bob@example.com
+
+post tech_blog Alice "MongoDB Tips" "This is a test post." "database,mongodb" 2025-03-07T12:00:00
+post tech_blog Bob "Indexes in MongoDB" "Indexes make queries faster." "database,indexes,mongodb" 2025-03-07T12:10:00
+
+comment tech_blog tech_blog.MongoDB_Tips Bob "Great post, Alice!" 2025-03-07T12:30:00
+comment tech_blog tech_blog.Indexes_in_MongoDB Alice "Nice info, Bob!" 2025-03-07T12:40:00
+
+find tech_blog "MongoDB"
+find tech_blog "Indexes"
+
+delete tech_blog tech_blog.MongoDB_Tips Bob 2025-03-07T12:50:00
+
+show tech_blog
+

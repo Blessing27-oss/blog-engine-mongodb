@@ -4,4 +4,4 @@ __pycache__/
 .env
 config.json
 mongodb.log
-
+config.ini

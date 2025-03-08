@@ -1,0 +1,71 @@
+User 'Alice' registered successfully.
+User 'Bob' registered successfully.
+
+Post added: MongoDB Tips (tech_blog.MongoDB_Tips)
+Post added: Indexes in MongoDB (tech_blog.Indexes_in_MongoDB)
+
+Comment added by Bob.
+Comment added by Alice.
+
+in Tech_blog:
+
+- - - -
+title: MongoDB Tips
+userName: Alice
+tags: database, mongodb
+timestamp: 2025-03-07T12:00:00
+permalink: tech_blog.MongoDB_Tips
+body: This is a test post.
+
+- - - -
+userName: Bob
+permalink: 2025-03-07T12:30:00
+comment:
+  Great post, Alice!
+
+- - - -
+title: Indexes in MongoDB
+userName: Bob
+tags: database, indexes, mongodb
+timestamp: 2025-03-07T12:10:00
+permalink: tech_blog.Indexes_in_MongoDB
+body: Indexes make queries faster.
+
+- - - -
+userName: Alice
+permalink: 2025-03-07T12:40:00
+comment:
+  Nice info, Bob!
+
+Comment 'tech_blog.MongoDB_Tips' deleted by Bob.
+
+in Tech_blog:
+
+- - - -
+title: MongoDB Tips
+userName: Alice
+tags: database, mongodb
+timestamp: 2025-03-07T12:00:00
+permalink: tech_blog.MongoDB_Tips
+body: This is a test post.
+
+- - - -
+userName: Bob
+permalink: 2025-03-07T12:30:00
+comment:
+  deleted by Bob
+
+- - - -
+title: Indexes in MongoDB
+userName: Bob
+tags: database, indexes, mongodb
+timestamp: 2025-03-07T12:10:00
+permalink: tech_blog.Indexes_in_MongoDB
+body: Indexes make queries faster.
+
+- - - -
+userName: Alice
+permalink: 2025-03-07T12:40:00
+comment:
+  Nice info, Bob!
+
